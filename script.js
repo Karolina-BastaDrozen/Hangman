@@ -213,18 +213,18 @@ window.onload = function() {
         "the-odyssey",
         "anna-karenina",
         "war-and-peace",
-        "the-great-gatsby"
+        "imprimatur"
       ],
       ["alien", 
       "dirty-harry", 
       "gladiator", 
       "finding-nemo", 
       "jaws",
-      "the-greatest-showman",
+      "alladyn",
       "black-panther",
       "spider-man",
       "toy-story",
-      "mission-impossible"
+      "king-lion"
      ],
       ["berlin", 
       "budapest", 
