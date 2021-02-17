@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 15px;
+  font-family: 'Long Cang', cursive;
+}
+body {
+  background-image: url("board.jpg");
+  background-size: cover;
+  background-position-y: -75px;
+  color: #fff;
+  height: 100%;
+  text-align: center;
+  font-size: 1.8rem;
+}
+ 
+h1 {
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 5rem;
+  margin-top: 60px;
+  color: white;
+}
+
+.wrapper p {
+  font-size: 3rem;
+  color: white;
+  /* margin: 0 20px; */
+}
+.container {
+  position: relative;
+}
+button {
+  border-radius: 75px;
+  position: absolute;
+  right: 300px;
+  bottom: 5px;
+  background: #02ac46;
+  color: #fff;
+  border: 2px solid #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 3rem;
+  padding: 15px 10px;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  outline: none;
+  font-family: 'Long Cang', cursive;
+  transition: 0.3s;
+}
+button:hover {
+  background: #fff;
+  border-color: #02ac46;
+  color: #02ac46;
+}
+.wrapper {
+  width: 100%;
+  /* margin: 0 auto; */
+}
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+canvas {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 15px;
+}
+#alphabet {
+  margin: 15px auto;
+  padding: 0;
+  max-width: 900px;
+}
+#alphabet:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#alphabet li {
+  float: left;
+  margin: 0 10px 10px 0;
+  list-style: none;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  color: #02ac46;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid  #fff;
+  font-size: 2.5rem;
+}
+#alphabet li:hover {
+  background: #02ac46;
+  border: 1px solid #fff;
+  color: #fff;
+}
+#my-word {
+  margin: 0;
+  display: block;
+  padding: 0;
+}
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin-bottom: 30px;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 3rem;
+}
+#categoryName {
+  margin: 10px auto;
+}
+#mylives {
+  margin: 20px auto;
+}
+#hold {
+  margin-top: 30px;
+}
